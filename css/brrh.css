@@ -1,0 +1,77 @@
+
+body {
+    font-family: "Calibri", sans-serif;
+}
+h1.name {
+   font-size: 1.2rem;
+   padding: 25px 0 10px 0;
+}
+
+#main-container{
+    max-width: 720px;
+}
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.with-photo {
+    background-image: url('../img/BaseColor.png');
+    width: 100%;
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.without-photo {
+    background-image: url('../img/BaseColorNoPhoto.png');
+    width: 100%;
+    height: 670px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.business-compliance {
+    background-image: url('../img/FondoSuperior-mobile.png');
+    background-size: 100%;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.logo-brand img{
+    width: 100%;
+    max-width: 562px;
+}
+.data{
+    font-size: .8rem;
+    line-height: 17px;
+}
+.data img{
+    width: 100%;
+}
+.data .data__ico{
+    max-width: 50px;
+}
+
+.avatar-display{
+    border-radius: 50%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border: solid 10px #4c4c4c;
+ }
+
+
+@media (min-width: 768px) {
+    h1.name {font-size: 2.5rem;padding: 25px 0;}
+    .separator{height: 200px;}
+    .data{font-size: 1.7rem;line-height: 1.7rem;}
+    .data .data__ico{max-width: 70px;}
+    .business-compliance {background-image: url('../img/FondoSuperior.png');}    
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-3 { border-radius: .3rem; }
+}
